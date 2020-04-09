@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_192dp">192</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="_8">8dp</dimen>
+    <dimen name="_0">0dp</dimen>
+    <dimen name="_32">32dp</dimen>
+    <dimen name="_16">16dp</dimen>
+    <dimen name="_32">32dp</dimen>
+    <dimen name="_60">60dp</dimen>
+</resources>
