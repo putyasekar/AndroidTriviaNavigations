@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/title_layout"
+        android:id="@+id/lose_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".fragment.TitleFragment">
+        android:background="#EDC0E6"
+        tools:context=".GameOverFragment">
 
         <ImageView
-            android:id="@+id/iv_title"
+            android:id="@+id/iv_lose"
             android:layout_width="@dimen/_0"
             android:layout_height="@dimen/_192dp"
-            android:layout_marginStart="@dimen/_8"
-            android:layout_marginTop="112dp"
-            android:layout_marginEnd="@dimen/_8"
-            android:contentDescription="@string/title_image"
-            android:src="@drawable/android_trivia"
+            android:layout_marginStart="@dimen/_16"
+            android:layout_marginTop="@dimen/_132"
+            android:layout_marginEnd="@dimen/_16"
+            android:contentDescription="@string/image_lose"
+            android:src="@drawable/try_again"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btn_play"
+            android:id="@+id/btn_try_again"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="@string/btn_play"
-            app:layout_constraintEnd_toEndOf="@+id/iv_title"
-            app:layout_constraintStart_toStartOf="@+id/iv_title"
-            app:layout_constraintTop_toBottomOf="@+id/iv_title" />
+            android:layout_marginTop="@dimen/_32"
+            android:text="@string/try_again"
+            app:layout_constraintEnd_toEndOf="@+id/iv_lose"
+            app:layout_constraintStart_toStartOf="@+id/iv_lose"
+            app:layout_constraintTop_toBottomOf="@+id/iv_lose" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

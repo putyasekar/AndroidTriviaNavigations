@@ -6,6 +6,6 @@
     <dimen name="_0">0dp</dimen>
     <dimen name="_32">32dp</dimen>
     <dimen name="_16">16dp</dimen>
-    <dimen name="_32">32dp</dimen>
     <dimen name="_60">60dp</dimen>
+    <dimen name="_132">132dp</dimen>
 </resources>
